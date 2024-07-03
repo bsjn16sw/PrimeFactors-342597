@@ -29,6 +29,10 @@ TEST_F(PrimeTexture, Of6) {
 	expected = {2, 3};
 	EXPECT_EQ(expected, pf.of(6));
 }
+TEST_F(PrimeTexture, Of9) {
+	expected = {3, 3};
+	EXPECT_EQ(expected, pf.of(9));
+}
 
 
 
